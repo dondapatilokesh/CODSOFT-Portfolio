@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dondapati Lokesh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Lokesh<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1>Dondapati Lokesh</h1>
+                <h2 class="typing-text">Web Development Intern @CodSoft</h2>
+                <p>I build dynamic and visually stunning web applications. Let's create something amazing together.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary">Get In Touch</a>
+                    <a href="#resume" class="btn secondary">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <div class="blob-wrapper">
+                    <!-- Dynamic Placeholder Avatar for Lokesh -->
+                    <img src="https://ui-avatars.com/api/?name=Dondapati+Lokesh&background=4338ca&color=fff&size=300" alt="Dondapati Lokesh">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate Web Developer with a strong foundation in modern web technologies. Currently, I am a proud intern at <strong>CodSoft</strong>, where I am enhancing my skills in HTML, CSS, JavaScript, and modern frameworks.</p>
+                    <p>My goal is to craft user-centric experiences that look great and perform exceptionally well. When I'm not coding, I enjoy exploring new tech trends and contributing to open-source projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React.js</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h3>Git & GitHub</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img placeholder1"></div>
+                    <div class="project-info">
+                        <h3>NexGen Landing Page</h3>
+                        <p>A modern, highly responsive landing page demonstrating advanced CSS layouts and glassmorphism UI.</p>
+                        <a href="../Level1_Task2_LandingPage/index.html" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img placeholder2"></div>
+                    <div class="project-info">
+                        <h3>Modern Calculator</h3>
+                        <p>A sleek, functional calculator built with HTML, CSS, and Vanilla JavaScript with a dark-mode theme.</p>
+                        <a href="../Level1_Task3_Calculator/index.html" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>lokesh@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+91 98765 43210</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out!');">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dondapati Lokesh. Designed for CodSoft Internship.</p>
+    </footer>
+</body>
+</html>
